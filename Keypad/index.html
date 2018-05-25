@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>No QWERTY Keypad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+    <script src="./scripts/main.js"></script>
+</head>
+<body onload="assignHandlers();">
+    <div id = "device">
+        <input type="text" readonly name="result" id="result" value='' />
+        <div id = "numpad" name="numpad">
+            <button class="key" value="1">1<br />.,!</button>
+            <button class="key" value="2">2<br />a b c</button>
+            <button class="key" value="3">3<br />d e f</button>
+            <button class="key" value="4">4<br />g h i</button>
+            <button class="key" value="5">5<br />j k l</button>
+            <button class="key" value="6">6<br />m n o</button>
+            <button class="key" value="7">7<br />p q r s</button>
+            <button class="key" value="8">8<br />t u v</button>
+            <button class="key" value="9">9<br />w x y z</button>
+            <button class="key" value="*">*</button>  
+            <button class="key" value="0">0<br />_</button>
+            <button class="key" value="#">#</button>
+        </div>
+        <input type="hidden" id="enteredChars" />        
+    </div>
+</body>
+</html>

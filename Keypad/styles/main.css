@@ -1,0 +1,33 @@
+#device {
+    max-width: 500px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+#result, #numpad {
+    margin: 5px;
+    width: 97%;
+}
+
+#result {
+    min-height: 50px;
+    vertical-align: middle;
+    font-size: 20px;
+    border: 2px solid gray;
+    padding: 5px;
+    box-sizing: border-box;    
+}
+
+#numpad {
+    text-align: center;
+}
+
+.key {
+    border-radius: 40px;
+    width: 30%;
+    margin: 6px;
+    height: 60px;
+    font-size: 18px;
+}
