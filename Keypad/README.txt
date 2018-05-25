@@ -7,8 +7,6 @@ An implementation of a basic old-school numbered keypad, using only plain Javasc
 
 ****************************************************************************************
 
-************
-
 The keypad takes in input from the mouse and the keyboard as well. 
 
 You can use the number keys, or the numpad for the same. 
@@ -22,23 +20,21 @@ Use the Backspace key to delete the last character entered.
 
 ****************************************************************************************
 
-************
-
 Files structure:
 
 
 
   Keypad
 
-        scripts
+      scripts
         
-      main.js
+          main.js
   
-        styles
+      styles
 
-              main.css
+          main.css
   
-        index.html
+      index.html
   
 
 
